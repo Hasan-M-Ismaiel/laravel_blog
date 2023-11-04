@@ -1,0 +1,29 @@
+3  pages 
+    home page (list of articals)  
+    Artical page (just one artical)
+    statuica page called (about me)
+
+the blog should contain a login mechanism (no register) for the auther to write articals // I think it is the confirmation password // the action need confirmation password for the author 
+
+after you are in: 
+
+    manage categories (create, update, delete)  
+    manage tags (create, update, delete) 
+    manage articals (create, update, delete)
+
+    you can use laravel Breeze (Tailwind) | laravel UI (Bootstrap) 
+
+DB structure: 
+    //here we have to use the form request to validate the input user data
+    Artical has title (required), 
+                full txt (required), 
+                image to upload (optional)
+     
+    the relationship between the category & Artical : 
+        the Artical have only one category
+    
+    the relationship between the tag & Artical : 
+        the Artical have many tags
+    
+
+you have basic models ( categories + articals ) + users (authors) + tags
